@@ -1,0 +1,71 @@
+aid: dropzone-ai
+url: https://raw.githubusercontent.com/api-evangelist/dropzone-ai/refs/heads/main/apis.yml
+name: Dropzone AI
+kind: company
+description: >-
+  Dropzone AI delivers an Agentic SOC platform built around an autonomous AI SOC
+  Analyst that handles tier-1 alert triage and threat hunting 24/7. The platform
+  ships pre-trained, is coachable in natural language, and connects via secure
+  APIs to 90+ existing security tools (SIEM, EDR/XDR, identity, cloud, threat
+  intel). Dropzone does not publish a customer-facing REST API; integration is
+  delivered through its outbound connectors and partner program.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Security
+  - SOC
+  - AI Agent
+  - Autonomous
+  - Triage
+  - SIEM
+  - EDR
+  - XDR
+  - Gated
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: dropzone-ai:platform-integrations
+    name: Dropzone AI Platform Integrations
+    description: >-
+      Dropzone AI's primary "API surface" is its catalog of 90+ outbound
+      integrations to SIEM, EDR/XDR, identity, cloud, and threat intel tools.
+      The autonomous SOC analyst consumes alerts and enrichment data from these
+      systems via their native APIs. No public, customer-facing REST API is
+      published; integration is configured during deployment (~30 minutes) and
+      documented in the gated docs portal.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.dropzone.ai/integrations
+    baseURL: https://www.dropzone.ai
+    tags:
+      - Integrations
+      - SIEM
+      - EDR
+      - XDR
+      - Identity
+      - Cloud
+      - Threat Intel
+    properties:
+      - type: Integrations
+        url: https://www.dropzone.ai/integrations
+      - type: Documentation
+        url: https://docs.dropzone.ai/
+      - type: Demo
+        url: https://www.dropzone.ai/self-guided-demo
+common:
+  - type: Website
+    url: https://www.dropzone.ai/
+  - type: Documentation
+    url: https://docs.dropzone.ai/
+  - type: Integrations
+    url: https://www.dropzone.ai/integrations
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/dropzoneai
+  - type: Plans
+    url: plans/dropzone-ai-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dropzone-ai-rate-limits.yml
+  - type: FinOps
+    url: finops/dropzone-ai-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
