@@ -66,6 +66,8 @@ common:
     url: rate-limits/dropzone-ai-rate-limits.yml
   - type: FinOps
     url: finops/dropzone-ai-finops.yml
+  - type: LLMsTxt
+    url: https://docs.dropzone.ai/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
