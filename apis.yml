@@ -52,6 +52,10 @@ apis:
       - type: Demo
         url: https://www.dropzone.ai/self-guided-demo
 common:
+  - type: VulnerabilityDisclosure
+    url: security/dropzone-ai-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/dropzone-ai-domain-security.yml
   - type: Website
     url: https://www.dropzone.ai/
   - type: Documentation
@@ -68,6 +72,8 @@ common:
     url: finops/dropzone-ai-finops.yml
   - type: LlmsText
     url: https://docs.dropzone.ai/llms.txt
+  - type: Blog
+    url: https://www.dropzone.ai/blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
