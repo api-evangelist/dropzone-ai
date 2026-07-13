@@ -1,0 +1,21 @@
+{
+  "repo": "dropzone-ai",
+  "feeds": [
+    {
+      "source": "https://www.dropzone.ai/blog",
+      "feed_url": "https://www.dropzone.ai/blog/rss.xml",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    },
+    {
+      "source": "https://docs.dropzone.ai/llms.txt",
+      "feed_url": "https://docs.dropzone.ai/llms.txt",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 37
+}
