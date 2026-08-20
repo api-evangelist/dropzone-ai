@@ -27,6 +27,16 @@ tags:
   - SOC
   - AI Agent
   - Autonomous
+  - triage
+  - SIEM
+  - EDR
+  - XDR
+  - Gated
+tags_raw:
+  - Security
+  - SOC
+  - AI Agent
+  - Autonomous
   - Triage
   - SIEM
   - EDR
@@ -49,6 +59,14 @@ apis:
     humanURL: https://www.dropzone.ai/integrations
     baseURL: https://www.dropzone.ai
     tags:
+      - Integration
+      - SIEM
+      - EDR
+      - XDR
+      - Identity
+      - Cloud
+      - Threat Intel
+    tags_raw:
       - Integrations
       - SIEM
       - EDR
