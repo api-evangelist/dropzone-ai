@@ -2,11 +2,11 @@
   "repo": "dropzone-ai",
   "feeds": [
     {
-      "source": "https://docs.dropzone.ai/llms.txt",
-      "feed_url": "https://docs.dropzone.ai/llms.txt",
+      "source": "https://www.dropzone.ai/blog",
+      "feed_url": "https://www.dropzone.ai/blog/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "discovered"
     },
     {
       "source": "https://www.dropzone.ai/blog/rss.xml",
@@ -14,9 +14,16 @@
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://docs.dropzone.ai/llms.txt",
+      "feed_url": "https://docs.dropzone.ai/llms.txt",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 80,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
